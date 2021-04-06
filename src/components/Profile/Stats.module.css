@@ -1,0 +1,24 @@
+.statslist {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  color: blue;
+}
+.statsListItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid white;
+  width: 100%;
+  height: 88px;
+  background-color: rgb(209, 221, 221);
+}
+.label {
+  color: rgb(90, 83, 83);
+}
+.quantity {
+  color: rgb(43, 42, 42);
+  font-weight: 700;
+}

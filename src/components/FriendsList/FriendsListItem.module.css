@@ -1,0 +1,14 @@
+.item {
+  margin-right: 10px;
+}
+.status {
+  width: 5px;
+  height: 5px;
+  border-radius: 0;
+  .online {
+    background-color: green;
+  }
+  .offline {
+    background-color: red;
+  }
+}

@@ -2,13 +2,16 @@
   margin-right: 10px;
 }
 .status {
-  width: 5px;
-  height: 5px;
-  border-radius: 0;
-  .online {
-    background-color: green;
-  }
-  .offline {
-    background-color: red;
-  }
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.online {
+  composes: status;
+  background-color: green;
+}
+.offline {
+  composes: status;
+  background-color: red;
 }

@@ -2,6 +2,7 @@
   text-align: center;
   font-size: 18px;
   color: brown;
+  text-transform: uppercase;
 }
 .statList {
   list-style: none;
@@ -11,5 +12,21 @@
   justify-content: center;
 }
 .item {
-  padding-left: 10px;
+  border: 1px solid grey;
+  background-color: rgb(222, 165, 255);
+  height: 70px;
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.label {
+  font-weight: 600;
+  color: rgb(33, 36, 36);
+}
+.percentage {
+  font-weight: 700;
+  font-size: 18px;
+  color: rgb(33, 36, 36);
 }
